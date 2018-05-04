@@ -10,6 +10,7 @@ compile_commands.json
 CTestTestfile.cmake
 
 # *** CLion ***
+.idea/**/workspace.xml
 .idea/**/tasks.xml
 /cmake-build-*/
 **.dSYM
