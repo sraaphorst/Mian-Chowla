@@ -13,11 +13,11 @@ CTestTestfile.cmake
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 /cmake-build-*/
-**.dSYM
-**.dSYM/**
+*.dSYM
+*.dSYM/**
 
 # *** Apps and C++ code ***
-differences
+Apps/differences
 
 # Prerequisites
 *.d
