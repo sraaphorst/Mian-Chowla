@@ -23,6 +23,30 @@ This project is just an experiment to play around with A, B_2, and similar seque
 
 3. Comparing performance in C++ vs. functional Scala.
 
+# Setting up the project:
+I am using gcc 7 installed via brew on my MacBook to compile (due to the inclusion of some C++17 features), and my IDE is JetBrains' CLion:
+
+https://www.jetbrains.com/clion/
+
+You will have to set up the project profiles. This can be done by going into:
+
+CLion -> Preferences -> Build, Execution, Deployment -> CMake.
+
+You should have one profile for Debug and one for Release. My Debug CMake options are:
+
+```
+-D CMAKE_BUILD_TYPE=Debug
+-D CMAKE_C_COMPILER=/usr/local/bin/gcc-7
+-D CMAKE_CXX_COMPILER=/usr/local/bin/g++-7
+```
+
+and my Release CMake options are:
+
+```
+-D CMAKE_BUILD_TYPE=Release
+-D CMAKE_C_COMPILER=/usr/local/bin/gcc-7
+-D CMAKE_CXX_COMPILER=/usr/local/bin/g++-7
+```
 
 # References
 
