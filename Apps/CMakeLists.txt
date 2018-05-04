@@ -1,0 +1,2 @@
+add_executable(differences differences.cpp)
+target_link_libraries(differences LINK_PUBLIC Sequences)

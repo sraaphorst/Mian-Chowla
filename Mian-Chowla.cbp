@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Mian-Chowla"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Sequences\;CMake Files\Apps\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sequences">
+				<Option output="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/libSequences.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include/c++/7.3.0"/>
+					<Add directory="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 Sequences"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sequences/fast">
+				<Option output="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/libSequences.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include/c++/7.3.0"/>
+					<Add directory="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 Sequences/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="differences">
+				<Option output="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/differences" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include/c++/7.3.0"/>
+					<Add directory="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 differences"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="differences/fast">
+				<Option output="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/differences" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include/c++/7.3.0"/>
+					<Add directory="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin16.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@7/7.3.0/lib/gcc/7/gcc/x86_64-apple-darwin16.7.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 differences/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/differences.cpp">
+			<Option target="differences"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/MianChowla.cpp">
+			<Option target="Sequences"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/MianChowla.h">
+			<Option target="Sequences"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/Sequences/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Sequences\"/>
+		</Unit>
+		<Unit filename="/Users/sraaphorst/Development/C++/Mian-Chowla/Apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Apps\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
