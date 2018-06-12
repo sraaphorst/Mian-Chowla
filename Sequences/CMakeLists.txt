@@ -1,2 +1,5 @@
-add_library(Sequences MianChowla.cpp)
-target_include_directories(Sequences PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+project(sequences VERSION 0.1.0 LANGUAGES CXX)
+
+add_library(sequences SHARED MianChowla.cpp)
+install(TARGETS sequences DESTINATION lib)
+install(FILES MianChowla.h DESTINATION include)
