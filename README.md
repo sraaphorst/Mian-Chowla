@@ -1,4 +1,5 @@
-# Mian-Chowla
+# Mian-Chowla Sequence
+
 I was playing around with sequences, and generated the Mian-Chowla sequence. Thus, I thought it would be fun to conduct some experiments with the Mian-Chowla sequence and other sequences.
 
 A B_2 sequence (also referred to as a Sidon sequence) is a sequence where the pairwise sums for any two terms is distinct. (Alternatively but equivalently, the difference of any two terms is distinct.)
@@ -24,9 +25,10 @@ This project is just an experiment to play around with A, B_2, and similar seque
 3. Comparing performance in C++ vs. functional Scala.
 
 # Setting up the project:
+
 I am using gcc 7 installed via brew on my MacBook to compile (due to the inclusion of some C++17 features), and my IDE is JetBrains' CLion:
 
-https://www.jetbrains.com/clion/
+https://www.jetbrains.com/clion
 
 You will have to set up the project profiles. This can be done by going into:
 
